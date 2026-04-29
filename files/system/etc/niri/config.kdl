@@ -264,7 +264,7 @@ layout {
 
 
 spawn-sh-at-startup "qs -c noctalia-shell"
-spawn-at-startup "plasma-polkit-agent"
+spawn-sh-at-startup "/usr/libexec/kf6/polkit-kde-authentication-agent-1"
 spawn-sh-at-startup "bash /etc/niri/firstrun.sh"
 
 hotkey-overlay {

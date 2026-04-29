@@ -16,6 +16,7 @@ modules:
         - alsa-firmware
         - polkit
         - polkit-kde
+        - kf6-kirigami
         - dbus-tools
         - dbus-daemon
         - qt5-wayland
@@ -56,24 +57,23 @@ modules:
         - gsettings-desktop-schemas
         - qt6-qt5compat
         - qt6-qt5compat-devel
-        # specifically for testing in VMs, i.e GNOME-boxes
-        - spice-server
-        - spice-vdagent
-        - spice-webdavd
-        # Personal stuff - leux08
         - noctalia-shell
         - starship
         - helium-bin
         - ghostty
+        - gnome-disk-utility
         - fish
         - sddm
         - fastfetch
         - adw-gtk3-theme
+        # specifically for testing in VMs, i.e GNOME-boxes
+        - spice-server
+        - spice-vdagent
+        - spice-webdavd
     remove:
       packages:
         - firefox
         - firefox-langpacks
         - gnome-software
         - gnome-system-monitor
-        - gnome-disk-utility
         - alacritty
