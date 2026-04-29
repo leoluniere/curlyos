@@ -7,7 +7,6 @@ modules:
           - io.github.kolunmi.Bazaar
           - io.github.diegopvlk.Cine
           - org.libreoffice.LibreOffice
-          - page.tesk.Refine
           - net.nokyan.Resources
           - io.github.nozwock.Packet
           - org.gnome.TextEditor
