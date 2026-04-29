@@ -72,3 +72,4 @@ modules:
         - firefox-langpacks
         - gnome-software
         - gnome-system-monitor
+        - alacritty
