@@ -41,8 +41,6 @@ modules:
         - heif-pixbuf-loader
         - ffmpeg
         - ffmpeg-libs
-        - greetd
-        - gtkgreet
         - ffmpegthumbnailer
         - pipewire-libs-extra
         - libfdk-aac
@@ -65,6 +63,10 @@ modules:
         - ghostty
         - fish
         - niri
+        - greetd
+        - greetd-selinux
+        - cosmic-greeter
+        - fastfetch
         - adw-gtk3-theme
     remove:
       packages:
@@ -72,3 +74,10 @@ modules:
         - firefox-langpacks
         - gnome-software
         - gnome-system-monitor
+        - cosmic-session
+        - cosmic-term
+        - cosmic-files
+        - cosmic-settings
+        - cosmic-screenshot
+        - cosmic-workspaces
+        - xdg-desktop-portal-cosmic
