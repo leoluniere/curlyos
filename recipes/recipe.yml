@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: leux-os
+name: curlyos
 description: This is my personal OS image.
 
 base-image: ghcr.io/ublue-os/base-main
@@ -22,10 +22,10 @@ modules:
 
   - type: os-release
     properties:
-      ID: leuxos
+      ID: curlyos
       ID_LIKE: fedora
-      NAME: leuxOS
-      PRETTY_NAME: leuxOS
-      DEFAULT_HOSTNAME: leuxos
+      NAME: CurlyOS
+      PRETTY_NAME: CurlyOS
+      DEFAULT_HOSTNAME: curlyos
 
   - type: signing
