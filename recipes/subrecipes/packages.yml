@@ -74,4 +74,5 @@ modules:
         - firefox-langpacks
         - gnome-software
         - gnome-system-monitor
+        - gnome-disk-utility
         - alacritty
