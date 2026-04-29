@@ -41,6 +41,8 @@ modules:
         - heif-pixbuf-loader
         - ffmpeg
         - ffmpeg-libs
+        - greetd
+        - gtkgreet
         - ffmpegthumbnailer
         - pipewire-libs-extra
         - libfdk-aac
