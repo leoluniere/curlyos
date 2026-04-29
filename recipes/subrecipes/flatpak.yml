@@ -1,0 +1,25 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - io.github.kolunmi.Bazaar
+          - io.github.diegopvlk.Cine
+          - org.libreoffice.LibreOffice
+          - page.tesk.Refine
+          - net.nokyan.Resources
+          - io.github.nozwock.Packet
+          - org.gnome.TextEditor
+          - org.gnome.Calculator
+          - de.haeckerfelix.Fragments
+          - org.gtk.Gtk3theme.adw-gtk3
+          - org.gtk.Gtk3theme.adw-gtk3-dark
+      - notify: true
+        scope: system
+        repo:
+          url: https://m-obeid.github.io/Mixtapes/mixtapes.flatpakrepo
+          title: Mixtapes
+        install:
+          - com.pocoguy.Muse
+      - scope: user # Also add Flathub user repo, but no user packages

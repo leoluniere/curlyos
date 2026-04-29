@@ -1,0 +1,72 @@
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - atim/starship
+        - imput/helium
+        - scottames/ghostty
+      files:
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+    install:
+      skip-unavailable: true
+      packages:
+        # This was borrowed from cyrneko/ublue-niri/
+        - wl-clipboard
+        - distrobox
+        - alsa-firmware
+        - polkit
+        - dbus-tools
+        - dbus-daemon
+        - qt5-wayland
+        - qt6-wayland
+        - wireplumber
+        - sudo
+        - pipewire
+        - pulseaudio-utils
+        - network-manager-applet
+        - NetworkManager-openvpn
+        - NetworkManager-openvpn-gnome
+        - NetworkManager-openconnect
+        - NetworkManager-openconnect-gnome
+        - bluez
+        - bluez-tools
+        - blueman
+        - nautilus
+        - gvfs-mtp
+        - gvfs-gphoto2
+        - gvfs-smb
+        - gvfs-nfs
+        - gvfs-fuse
+        - gvfs-archive
+        - heif-pixbuf-loader
+        - ffmpeg
+        - ffmpeg-libs
+        - ffmpegthumbnailer
+        - pipewire-libs-extra
+        - libfdk-aac
+        - gstreamer1-plugins-bad
+        - gstreamer1-plugins-ugly
+        - gnome-keyring
+        - luajit
+        - luajit-devel
+        - dconf
+        - dconf-editor
+        - gsettings-desktop-schemas
+        # specifically for testing in VMs, i.e GNOME-boxes
+        - spice-server
+        - spice-vdagent
+        - spice-webdavd
+        # Personal stuff - leux08
+        - noctalia-shell
+        - starship
+        - helium-bin
+        - ghostty
+        - fish
+        - niri
+        - adw-gtk3-theme
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+        - gnome-software
+        - gnome-system-monitor
