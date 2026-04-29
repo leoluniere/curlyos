@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-sleep 3
+sleep 5
 
 FIRST_RUN=false
 if [ ! "$HOME/.config/noctalia" ]; then

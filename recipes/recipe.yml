@@ -20,4 +20,12 @@ modules:
       enabled:
         - sddm.service
 
+  - type: os-release
+    properties:
+      ID: leuxos
+      ID_LIKE: fedora
+      NAME: leuxOS
+      PRETTY_NAME: leuxOS
+      DEFAULT_HOSTNAME: leuxos
+
   - type: signing

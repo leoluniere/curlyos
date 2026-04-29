@@ -298,20 +298,20 @@ animations {
 }
 
 // Blur for apps and Noctalia
-window-rule {
-  background-effect {
-    blur true
-    xray false
-  }
-}
+// window-rule {
+//   background-effect {
+//     blur true
+//     xray false
+//   }
+// }
 
 
-layer-rule {
-  match namespace="^noctalia-(background|launcher-overlay|dock)-.*$"
-  background-effect {
-    xray false
-  }
-}
+// layer-rule {
+//   match namespace="^noctalia-(background|launcher-overlay|dock)-.*$"
+//   background-effect {
+//     xray false
+//   }
+// }
 
 // Force all windows to be rounded
 window-rule {
