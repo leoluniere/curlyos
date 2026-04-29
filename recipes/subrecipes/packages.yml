@@ -52,6 +52,8 @@ modules:
         - dconf
         - dconf-editor
         - gsettings-desktop-schemas
+        - qt6-qt5compat
+        - qt6-qt5compat-devel
         # specifically for testing in VMs, i.e GNOME-boxes
         - spice-server
         - spice-vdagent
