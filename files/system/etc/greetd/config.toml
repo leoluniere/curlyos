@@ -1,0 +1,8 @@
+[terminal]
+vt = 1
+
+[default_session]
+
+command = "niri -c /etc/greetd/gtkgreet.kdl"
+
+user = "greeter"

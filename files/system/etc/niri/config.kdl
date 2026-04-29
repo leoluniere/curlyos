@@ -263,7 +263,7 @@ layout {
 }
 
 
-spawn-sh-at-startup "qs" "-c" "noctalia-shell"
+spawn-sh-at-startup "qs -c noctalia-shell"
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
