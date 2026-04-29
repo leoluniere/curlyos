@@ -25,6 +25,7 @@ modules:
         - sudo
         - pipewire
         - pulseaudio-utils
+        - ddcutil
         - network-manager-applet
         - NetworkManager-openvpn
         - NetworkManager-openvpn-gnome
