@@ -64,7 +64,6 @@ modules:
         - helium-bin
         - ghostty
         - fish
-        - niri
         - sddm
         - fastfetch
         - adw-gtk3-theme
@@ -76,3 +75,7 @@ modules:
         - gnome-system-monitor
         - gnome-disk-utility
         - alacritty
+  - type: pacman
+    install:
+      packages:
+        - niri
