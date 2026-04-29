@@ -15,6 +15,7 @@ modules:
         - distrobox
         - alsa-firmware
         - polkit
+        - polkit-kde
         - dbus-tools
         - dbus-daemon
         - qt5-wayland
